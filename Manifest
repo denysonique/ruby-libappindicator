@@ -1,0 +1,6 @@
+LICENSE
+README.rdoc
+Rakefile
+ext/libappindicator/extconf.rb
+ext/libappindicator/libappindicator.c
+Manifest
