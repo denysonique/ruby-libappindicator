@@ -1,0 +1,3 @@
+v0.1.1. Add runtime dependency on gtk2, load it automatically, change the .so file name
+
+v0.1.0. Initial version

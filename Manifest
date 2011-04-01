@@ -1,6 +1,8 @@
+CHANGELOG
 LICENSE
 README.rdoc
 Rakefile
+lib/ruby-libappindicator.rb
 ext/libappindicator/extconf.rb
 ext/libappindicator/libappindicator.c
 Manifest

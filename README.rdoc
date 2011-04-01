@@ -1,7 +1,7 @@
 = Ruby-libappindicator
 
 == Summary
-Ruby bindings for libappindicator[http://people.canonical.com/~ted/libappindicator/current/] used by Ubuntu's {Application Indicators}[https://wiki.ubuntu.com/DesktopExperienceTeam/ApplicationIndicators] released under the {LGPLiv3 license}[http://www.gnu.org/copyleft/lesser.html]
+Ruby bindings for libappindicator[http://people.canonical.com/~ted/libappindicator/current/] used by Ubuntu's {Application Indicators}[https://wiki.ubuntu.com/DesktopExperienceTeam/ApplicationIndicators] released under the {LGPLv3 license}[http://www.gnu.org/copyleft/lesser.html]
 
 This is my first C extension and my first gem so please consider this as beta version. It works on my computer, but I can't guarantee it will on yours. Any help will of course be appreciated, especially for proper gem packaging.
 
@@ -10,8 +10,7 @@ This gem uses the same version numbering than libappindicator itself for major a
 
 == Minimal "hello world"
  require "rubygems"
- require "gtk2"
- require "ruby_libappindicator"
+ require "ruby-libappindicator"
  
  ai = AppIndicator::AppIndicator.new("test", "indicator-messages", AppIndicator::Category::APPLICATION_STATUS);
  
@@ -24,8 +23,5 @@ The two necessary steps to make your application indicator visible are:
 * setting a menu (even empty, but you need one)
 * setting the status as active or requiring attention
 
-<b>It is necessary to require the gtk2 gem or ruby_libappindicator will fail to find some functions. As soon as I find the proper way to do it automatically, this requirement will be gone.</b>
-
 == TODO
-* Remove the requirement of explicitely requiring the gtk2 gem
 * Write/generate some documentation

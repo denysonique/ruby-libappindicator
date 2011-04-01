@@ -83,7 +83,7 @@ static VALUE ai_build_menu_from_desktop(VALUE self, VALUE desktop_file, VALUE de
 }
 
 
-Init_ruby_libappindicator() {
+Init_appindicator() {
 	VALUE mAppIndicator = rb_define_module("AppIndicator");
 
 	VALUE cStatus = rb_define_class_under(mAppIndicator, "Status", rb_cObject);

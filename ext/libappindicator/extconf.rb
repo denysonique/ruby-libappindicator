@@ -16,5 +16,5 @@ PKGConfig.have_package(package_id) || failure("Couldn't find #{package_id}")
   find_header(h, h_fp.rpartition("/")[0])
 end
 
-create_makefile 'ruby_libappindicator'
+create_makefile 'appindicator'
 
