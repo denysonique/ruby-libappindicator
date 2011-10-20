@@ -23,5 +23,12 @@ The two necessary steps to make your application indicator visible are:
 * setting a menu (even empty, but you need one)
 * setting the status as active or requiring attention
 
+== Installing
+In order to build ruby-libappindicator you need to have the GTK+ and libappindicator development headers
+
+ $ sudo apt-get install libgtk-directfb-2.0-dev libappindicator-dev
+ $ gem install ruby-libappindicator
+ 
+
 == TODO
 * Write/generate some documentation
